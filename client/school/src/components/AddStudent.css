@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  background-color: rgba(5, 56, 56, 0.603);
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 400px;
+  opacity: 100px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.container form {
+  size: 4rem;
+  padding-left: 10rem;
+}
+
+.container form input {
+  width: 15rem;
+  height: 2rem;
+  justify-content: space-around;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.container form select {
+  width: 6rem;
+  height: 2.5rem;
+  margin: 1rem;
+  margin-left: 2.5rem;
+}
+
+.container form button {
+  width: 5rem;
+  height: 3rem;
+  margin-left: 5rem;
+  border-radius: 1rem;
+}
+
+.container form label {
+  font-size: 2rem;
+}
